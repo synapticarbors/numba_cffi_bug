@@ -1,0 +1,7 @@
+*.so
+*.o
+*.pyc
+*.pyd
+*.swp
+*.swo
+_rmath_ffi.c
