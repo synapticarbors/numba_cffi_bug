@@ -1,7 +1,5 @@
 from __future__ import print_function
 
-import math
-
 import numpy as np
 import numba as nb
 
@@ -18,8 +16,6 @@ runif = _rmath_ffi.lib.runif
 set_seed = _rmath_ffi.lib.set_seed
 
 set_seed(123, 456)
-
-MAXFLOAT = np.finfo(np.float64).max
 
 @nb.njit
 def f():
